@@ -14,5 +14,9 @@ namespace First
         {
             Console.WriteLine($"Addition of {a} and {b} is {a + b}");
         }
+        public void Sub(int a, int b)
+        {
+            Console.WriteLine($"Substraction of {a} and {b} is {a - b}");
+        }
     }
 }

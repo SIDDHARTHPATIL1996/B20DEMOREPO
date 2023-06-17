@@ -11,5 +11,7 @@ int b = int.Parse(Console.ReadLine());
 
 Calculator calculator = new Calculator();
 calculator.Add(a,b);
+calculator.Sub(a,b);
+
 
 Console.ReadLine();
